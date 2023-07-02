@@ -45,6 +45,8 @@ vim.keymap.set("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>")
 vim.keymap.set("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>")
 vim.keymap.set("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>")
 
--- remap swap windows command
+-- remap swapping cursor between windows command
 vim.keymap.set("n", "<leader>w", "<C-w>w")
+-- remap swapping windows command
+vim.keymap.set("n", "<leader>r", "<C-w><C-r>")
 
