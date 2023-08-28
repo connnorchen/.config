@@ -7,7 +7,8 @@ vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
 -- pressing J will make cursor in place
 vim.keymap.set("n", "J", "mzJ`z")
 -- Ctrl + d, Ctrl + u moves the screen in an oriented way
-vim.keymap.set("n", "<C-d>", "<C-d>zz") vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "<C-d>", "<C-d>zz") 
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
 -- search terms are kept in the middle
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
